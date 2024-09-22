@@ -1,0 +1,91 @@
+.about-box {
+    display: flex;
+    align-items: center;
+    background-color: powderblue;
+
+    width: 76%;
+    height: 80%;
+    padding: 5% 12%;
+    margin-top: -1%;
+}
+
+.content-pic {
+    height: 40%;
+    width: 40%;
+}
+
+.contacts-pic {
+    height: 30%;
+    width: 30%;
+}
+
+.content-capital-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+.content-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.headed-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    background-color:rgb(56, 170, 170);
+    margin: 2% 10%;
+    padding: 2% 3%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 3px black;
+}
+
+.skills-box {
+    display: flex;
+    align-items: center;
+    background-color:darkcyan;
+    justify-content: space-between;
+
+    width: 88%;
+    height: 80%;
+    padding: 2% 6%;
+}
+
+.logo-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-copyable {
+    background-color: transparent;
+    border: none;
+    color: lightblue;
+    text-decoration: underline;
+}
+
+.content-copyable:hover {
+    cursor: pointer
+}
+
+.logo-object {
+    width: 20%;
+    height: 20%;
+    margin: 1% 1%;
+}
+
+.contacts-box {
+    display: flex;
+    align-items: center;
+    background-color:powderblue;
+
+    width: 100%;
+    height: 100%;
+}
+
+#text-copied-popup {
+    transition: opacity 1.5s ease-in-out;
+}
