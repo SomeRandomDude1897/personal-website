@@ -4,7 +4,7 @@ This is my personal website built using React. The main goal of this project was
 
 ## Live Website
 
-You can check it out [here](sokhanivan.ru).
+The website is now live, you can check it out [here](http://sokhanivan.ru).
 
 ## Technologies Used
 
