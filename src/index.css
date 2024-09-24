@@ -12,10 +12,39 @@ code {
     monospace;
 }
 
-.fade-out {
-  opacity: 0;
+.app {
+  transition: opacity 1.5s ease-in-out;
 }
 
-.fade-in {
-  opacity: 1;
+@media (min-width: 1200px) {
+  .fade-out {
+    opacity: 0;
+  }
+
+  .fade-in {
+    opacity: 1;
+  }
+  #text-for-mobiles {
+    display: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+}
+}
+
+@media (max-width: 1199px) {
+  .fade-out {
+    opacity: 0;
+  }
+
+  .fade-in {
+    opacity: 0;
+  }
+  #text-for-mobiles {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+}
 }
